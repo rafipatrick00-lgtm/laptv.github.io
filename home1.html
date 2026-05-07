@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LAP TV </title>
+  <link rel="icon" type="image/x-icon" href="images/lap tv logo.png" class="Title_logo">
+  <meta name="description" content="LAP TV Online Press — Your source for 
+  breaking world news, politics, business, technology, sports and more." />
+
+  <!-- Google Fonts (loaded via CSS) -->
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-Avb2QiuDEEvB4bZJYdab1L83W0a3gKqx8T
+    suRxEuKmHe9q9EqmYEQIV4j4n5xP5QNY8z5i5v3PBJ+h0YrJ7Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Site stylesheet -->
+  <link rel="stylesheet" href="home1.css"/>
+  <link rel="stylesheet" href="Politics.css"/>
+  <script src="home1.js"></script>
+</head>
+<body>
+<!-- ══════════════════════════════════════
+     HEADER
+══════════════════════════════════════ -->
+<header class="site-header">
+  <div class="header-inner">
+    <!-- Logo — mix-blend-mode:multiply in CSS removes white bg -->
+    <a href="home1.html" class="logo-wrap">
+      <img src="images/lap_tv_logo-removebg-preview.png" alt="LAP TV Online Press" class="logo-img" />
+    </a>
+
+    <!-- Search -->
+    <div class="header-search">
+      <input type="text" placeholder="Search news, topics, authors…" />
+      <button aria-label="Search"><i class="fas fa-search"></i></button>
+    </div>
+
+    <!-- CTA + hamburger -->
+     
+    <div class="header-cta">
+      <a href="#" class="btn-subscribe">Subscribe Free</a>
+      <button class="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ══════════════════════════════════════
+     NAVIGATION
+══════════════════════════════════════ -->
+<nav class="main-nav">
+  <div class="nav-inner">
+    <a href="#" class="active">Home</a>
+    <a href="world.html">World</a>
+    <a href="Politics.html">Politics</a>
+    <a href="Buziness.html">Business</a>
+    <a href="Technology.html">Technology</a>
+    <a href="Sports.html">Sports</a>
+    <a href="Health.html">Health</a>
+    <a href="Culture.html">Culture</a>
+    <a href="opinion.html">Opinion</a>
+    <a href="#" class="nav-live"><i class="fas fa-circle" style="font-size:9px;margin-right:5px;"></i> LIVE</a>
+  </div>
+</nav>
+
+<!-- ══════════════════════════════════════
+     BREAKING NEWS TICKER
+══════════════════════════════════════ -->
+<div class="ticker-bar">
+  <div class="ticker-label">Breaking</div>
+  <div class="ticker-track">
+    <div class="ticker-items">
+      <span>Iran proposes Hormuz Strait deal to U.S.  nuclear talks deferred</span>
+      <span>EU approves $106 billion loan package for Ukraine's military and economic needs</span>
+      <span>King Charles III arrives in U.S. for historic 10-day state visit</span>
+      <span>Siacca made it!</span>
+      <span>Goldman Sachs raises Brent oil forecast to $90/barrel by late 2026</span>
+      <span>Shooting incident at White House Correspondents' Dinner  suspect in custody</span>
+      <span>Putin meets Iran's FM Araghchi in St. Petersburg amid stalled U.S. Iran peace talks</span>
+      <span>Car bomb explodes near police station in Northern Ireland   security alert declared</span>
+      <span>Germany's Merz says U.S. "being humiliated" by Iran over failed negotiations</span>
+    </div>
+  </div>
+</div>
+<!-- ══════════════════════════════════════
+     WORLD PAGE BANNER
+══════════════════════════════════════ -->
+<div class="world-banner">
+  <h1><i class="fas fa-globe-americas" style="margin-right:12px;color:var(--orange)"></i><i>welcome to</i>  LAP TV </h1>
+  <p>Online Press</p>
+</div>
+
+<!-- ══════════════════════════════════════
+     MAIN CONTENT
+══════════════════════════════════════ -->
+<main class="site-main">
+  <div class="content-grid">
+
+    <!-- ── LEFT / MAIN ── -->
+    <div class="main-content">
+
+      <!-- HERO FEATURE -->
+      <section class="hero-feature" aria-label="Top story">
+        <!-- Main hero card -->
+        <div class="hero-main">
+          <img
+            src="images/photo-1529107386315-e1a2ed48a620.jpg"
+            alt="US-Iran diplomacy talks"
+            loading="eager"
+          />
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <span class="cat-badge">World</span>
+            <h1>Iran Offers New Hormuz Strait Deal to U.S. as Peace Talks Stall Again</h1>
+            <p>Iran has proposed reopening the strategically vital Strait of Hormuz while deferring nuclear talks — a staged peace process gaining traction in back-channel diplomacy between Washington and Tehran.</p>
+            <div class="meta"><i class="fas fa-clock"></i> 2 hours ago &nbsp;·&nbsp; <i class="fas fa-user"></i> LAP TV World Desk</div>
+          </div>
+        </div>
+        <!-- Side stack -->
+        <div class="hero-side">
+          <div class="hero-side-item">
+            <img
+              src="images/iran.jpg"
+              alt="EU Ukraine loan"
+            />
+            <div class="hero-side-text">
+              <span class="cat-badge">Europe</span>
+              <h3>EU Approves Record $106-Billion Loan Package for Ukraine</h3>
+              <div class="meta"><i class="fas fa-clock"></i> 4 hours ago</div>
+            </div>
+          </div>
+          <div class="hero-side-item">
+            <img
+              src="images/King Charles is planning a state visit to the US___.jpg"
+              alt="King Charles US visit"
+            />
+            <div class="hero-side-text">
+              <span class="cat-badge">Diplomacy</span>
+              <h3>King Charles Arrives in U.S. for America's 250th Anniversary State Visit</h3>
+              <div class="meta"><i class="fas fa-clock"></i> 6 hours ago</div>
+            </div>
+          </div>
+          <div class="hero-side-item">
+            <img
+              src="images/oil.jpeg"
+              alt="Oil markets Goldman Sachs"
+            />
+            <div class="hero-side-text">
+              <span class="cat-badge">Business</span>
+              <h3>Goldman Sachs Raises Oil Forecast to $90 a Barrel Amid Gulf Tensions</h3>
+              <div class="meta"><i class="fas fa-clock"></i> 8 hours ago</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- LATEST WORLD NEWS GRID -->
+      <section class="section-label">
+        <div class="accent"></div>
+        <h2>Latest World News</h2>
+        <div class="line"></div>
+      </section>
+
+      <div class="news-grid">
+
+        <!-- Card 1 -->
+        <article class="news-card">
+          <img class="news-card-img"
+            src="images/Putin.jpg"
+            alt="Putin Iran meeting"
+          />
+          <div class="news-card-body">
+            <div class="cat-tag">Geopolitics</div>
+            <h3>Putin Declares Support for Iran After Failed U.S. Peace Talks in Islamabad</h3>
+            <p>The Russian president praised Tehran's "heroism" during talks with Iran's FM Araghchi in St. Petersburg, signalling Moscow's continued backing.</p>
+            <div class="news-card-meta">
+              <span><i class="fas fa-clock"></i> 3 hrs ago</span>
+              <a href="#" class="read-more">Read More →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="news-card">
+          <img class="news-card-img"
+            src="image politics/white housu.jpeg"
+            alt="White House Correspondents Dinner shooting"
+          />
+          <div class="news-card-body">
+            <div class="cat-tag">U.S. News</div>
+            <h3>Suspect in White House Correspondents' Dinner Shooting Set to Appear in Court</h3>
+            <p>Armed Secret Service agents stormed the stage during the annual gala after gunfire erupted, sending hundreds fleeing from the Washington Hilton.</p>
+            <div class="news-card-meta">
+              <span><i class="fas fa-clock"></i> 5 hrs ago</span>
+              <a href="#" class="read-more">Read More →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="news-card">
+          <img class="news-card-img"
+            src="images/An IRA car bomb explodes at Scotland Yard, Whitehall, 1973.jpg"
+            alt="Northern Ireland car bomb"
+          />
+          <div class="news-card-body">
+            <div class="cat-tag">Security</div>
+            <h3>Car Bomb Explodes Near Police Station in Northern Ireland's Dunmurry</h3>
+            <p>Police declared a major security alert on the outskirts of Belfast after a device detonated close to a local station, with no immediate reports of casualties.</p>
+            <div class="news-card-meta">
+              <span><i class="fas fa-clock"></i> 7 hrs ago</span>
+              <a href="#" class="read-more">Read More →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="news-card">
+          <img class="news-card-img"
+            src="images/Facebook could soon introduce a subscription fee___.jpg"
+            alt="Meta EU investigation"
+          />
+          <div class="news-card-body">
+            <div class="cat-tag">Technology</div>
+            <h3>Meta Under EU Scrutiny Over Data Transaction — Says It Complied Fully with Law</h3>
+            <p>The social media giant is facing a European inquiry over an internal data transaction, as regulators across the bloc tighten oversight of Big Tech.</p>
+            <div class="news-card-meta">
+              <span><i class="fas fa-clock"></i> 9 hrs ago</span>
+              <a href="#" class="read-more">Read More →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 5 -->
+        <article class="news-card">
+          <img class="news-card-img"
+            src="images/German Chancellor Merz Cri.jpg"
+            alt="Germany Merz US Iran"
+          />
+          <div class="news-card-body">
+            <div class="cat-tag">Europe</div>
+            <h3>German Chancellor Merz Criticises U.S. Strategy in Iran, Calls Affair "Ill-Considered"</h3>
+            <p>Friedrich Merz cited Iraq and Afghanistan as cautionary tales during a school visit in Marsberg, warning against military adventures without clear exit strategies.</p>
+            <div class="news-card-meta">
+              <span><i class="fas fa-clock"></i> 10 hrs ago</span>
+              <a href="#" class="read-more">Read More →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 6 -->
+        <article class="news-card">
+          <img class="news-card-img"
+            src="images/Global Oil Inventories Drawing at Record Pace Amid Hormuz Disruption — Analysts.jpg"
+            alt="Oil Strait of Hormuz"
+          />
+          <div class="news-card-body">
+            <div class="cat-tag">Energy</div>
+            <h3>Global Oil Inventories Drawing at Record Pace Amid Hormuz Disruption — Analysts</h3>
+            <p>Strategists warn the world's supply cushion is shrinking faster than at any point in history, with Goldman Sachs flagging an 11–12 million bpd drawdown in April alone.</p>
+            <div class="news-card-meta">
+              <span><i class="fas fa-clock"></i> 12 hrs ago</span>
+              <a href="#" class="read-more">Read More →</a>
+            </div>
+          </div>
+        </article>
+
+      </div><!-- /news-grid -->
+
+      <!-- TRENDING NOW -->
+      <section class="section-label">
+        <div class="accent"></div>
+        <h2>Trending Now</h2>
+        <div class="line"></div>
+      </section>
+
+      <div class="trending-list">
+
+        <div class="trending-item">
+          <span class="trending-num">1</span>
+          <img class="trending-img"
+            src="images/Iran's Hormuz Proposal.jpg"
+            alt="Iran deal" />
+          <div class="trending-info">
+            <div class="trending-title">Iran's Hormuz Proposal to U.S.: What a Staged Deal Could Look Like</div>
+            <div class="trending-meta"><i class="fas fa-fire" style="color:#f97316"></i> 58,400 views &nbsp;·&nbsp; World</div>
+          </div>
+        </div>
+
+        <div class="trending-item">
+          <span class="trending-num">2</span>
+          <img class="trending-img"
+            src="images/King Charles is planning a state visit to the US___.jpg"
+            alt="King Charles" />
+          <div class="trending-info">
+            <div class="trending-title">King Charles in America: Full Schedule of the Royal State Visit</div>
+            <div class="trending-meta"><i class="fas fa-fire" style="color:#f97316"></i> 44,100 views &nbsp;·&nbsp; Diplomacy</div>
+          </div>
+        </div>
+
+        <div class="trending-item">
+          <span class="trending-num">3</span>
+          <img class="trending-img"
+            src="image politics/white housu.jpeg"
+            alt="Correspondents Dinner" />
+          <div class="trending-info">
+            <div class="trending-title">What We Know About the White House Correspondents' Dinner Shooting</div>
+            <div class="trending-meta"><i class="fas fa-fire" style="color:#f97316"></i> 39,700 views &nbsp;·&nbsp; U.S. News</div>
+          </div>
+        </div>
+
+        <div class="trending-item">
+          <span class="trending-num">4</span>
+          <img class="trending-img"
+            src="images/oil.jpeg"
+            alt="Oil Goldman" />
+          <div class="trending-info">
+            <div class="trending-title">Why Goldman Sachs Is Betting Oil Stays Above $90 for the Rest of 2026</div>
+            <div class="trending-meta"><i class="fas fa-fire" style="color:#f97316"></i> 27,200 views &nbsp;·&nbsp; Business</div>
+          </div>
+        </div>
+
+        <div class="trending-item">
+          <span class="trending-num">5</span>
+          <img class="trending-img"
+            src="images/photo-1529107386315-e1a2ed48a620.jpg"
+            alt="Ukraine EU" />
+          <div class="trending-info">
+            <div class="trending-title">EU's $106-Billion Ukraine Lifeline: Breaking Down the Two-Year Package</div>
+            <div class="trending-meta"><i class="fas fa-fire" style="color:#f97316"></i> 21,000 views &nbsp;·&nbsp; Europe</div>
+          </div>
+        </div>
+
+      </div><!-- /trending-list -->
+
+      <!-- BROWSE BY CATEGORY -->
+      <section class="category-strip">
+        <div class="section-label">
+          <div class="accent"></div>
+          <h2>Browse Categories</h2>
+          <div class="line"></div>
+        </div>
+        <div class="cat-cards">
+
+          <div class="cat-card">
+            <img src="images/Politics.jpg" alt="Politics" />
+            <div class="cat-card-overlay">
+              <h4>Politics</h4>
+              <span>214 articles</span>
+            </div>
+          </div>
+
+          <div class="cat-card">
+            <img src="images/Global Oil Inventories Drawing at Record Pace Amid Hormuz Disruption — Analysts.jpg" alt="Business" />
+            <div class="cat-card-overlay">
+              <h4>Business</h4>
+              <span>183 articles</span>
+            </div>
+          </div>
+
+          <div class="cat-card">
+            <img src="tech/download (1).jpg" alt="Technology" />
+            <div class="cat-card-overlay">
+              <h4>Technology</h4>
+              <span>156 articles</span>
+            </div>
+          </div>
+
+          <div class="cat-card">
+            <img src="images sports/sport1.jpg" alt="Sports" />
+            <div class="cat-card-overlay">
+              <h4>Sports</h4>
+              <span>92 articles</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- VIDEO SECTION -->
+      <section class="video-section">
+        <div class="section-label">
+          <div class="accent"></div>
+          <h2>Video Reports</h2>
+          <div class="line"></div>
+        </div>
+        <div class="video-grid">
+
+          <div class="video-thumb large">
+            <img src="images/iran.jpg" alt="Iran diplomacy" />
+            <div class="play-btn"><i class="fas fa-play" style="margin-left:3px"></i></div>
+            <div class="video-caption">Inside the Stalled U.S.-Iran Peace Talks — Full Analysis</div>
+          </div>
+
+          <div class="video-thumb">
+            <img src="image politics/US hits Iran with new sanctions as nuclear talks continue.jpg" alt="Ukraine" />
+            <div class="play-btn"><i class="fas fa-play" style="margin-left:3px"></i></div>
+            <div class="video-caption">Ukraine's EU Loan: What It Means on the Ground</div>
+          </div>
+
+          <div class="video-thumb">
+            <img src="images/King Charles is planning a state visit to the US___.jpg" alt="King Charles" />
+            <div class="play-btn"><i class="fas fa-play" style="margin-left:3px"></i></div>
+            <div class="video-caption">King Charles Lands in Washington — Highlights</div>
+          </div>
+
+        </div>
+      </section>
+
+    </div><!-- /main-content -->
+
+    <!-- ── SIDEBAR ── -->
+    <aside class="sidebar">
+
+      <!-- Latest News widget -->
+      <div class="sidebar-widget">
+        <div class="widget-head">
+          <span class="dot"></span> Latest Updates
+        </div>
+
+        <div class="sidebar-news-item">
+          <img src="images/Putin.jpg" alt="Putin" />
+          <div>
+            <h4>Putin Backs Iran as Diplomacy Moves to Moscow</h4>
+            <div class="meta">3 hrs ago</div>
+          </div>
+        </div>
+
+        <div class="sidebar-news-item">
+          <img src="images/An IRA car bomb explodes at Scotland Yard, Whitehall, 1973.jpg" alt="Belfast" />
+          <div>
+            <h4>Car Bomb Alert in Belfast Suburb Disrupts Morning Commute</h4>
+            <div class="meta">5 hrs ago</div>
+          </div>
+        </div>
+
+        <div class="sidebar-news-item">
+          <img src="images/Facebook could soon introduce a subscription fee___.jpg" alt="Meta" />
+          <div>
+            <h4>Meta Faces EU Probe Over Alleged Data Sharing with Advertisers</h4>
+            <div class="meta">8 hrs ago</div>
+          </div>
+        </div>
+
+        <div class="sidebar-news-item">
+          <img src="images/Así quedó el sorteo de la champions.jpg" alt="Sports" />
+          <div>
+            <h4>Champions League Semi-Finals: Who Has the Edge Going Into Second Legs?</h4>
+            <div class="meta">10 hrs ago</div>
+          </div>
+        </div>
+
+        <div class="sidebar-news-item">
+          <img src="images/War, Diplomacy, and Power Politics_.jpg" alt="Health" />
+          <div>
+            <h4>WHO Warns of Rising Heat-Related Deaths Across Southern Europe</h4>
+            <div class="meta">12 hrs ago</div>
+          </div>
+        </div>
+
+      </div><!-- /latest widget -->
+
+      <!-- Social widget -->
+      <div class="sidebar-widget">
+        <div class="widget-head">
+          <i class="fas fa-share-alt"></i>&nbsp; Follow LAP TV
+        </div>
+        <div class="social-widget-inner">
+
+          <div class="social-row">
+            <div class="social-icon fb"><i class="fab fa-facebook-f"></i></div>
+            <div>
+              <div class="social-count">48.2K</div>
+              <div class="social-label">Facebook Followers</div>
+            </div>
+            </a><button class="btn-follow" >Follow</button>
+          </div>
+
+          <div class="social-row">
+            <div class="social-icon tw"><i class="fab fa-x-twitter"></i></div>
+            <div>
+              <div class="social-count">31.5K</div>
+              <div class="social-label">X / Twitter Followers</div>
+            </div>
+            <button class="btn-follow">Follow</button>
+          </div>
+
+          <div class="social-row">
+            <div class="social-icon yt"><i class="fab fa-youtube"></i></div>
+            <div>
+              <div class="social-count">22.8K</div>
+              <div class="social-label">YouTube Subscribers</div>
+            </div>
+            <button class="btn-follow">Subscribe</button>
+          </div>
+
+          <div class="social-row">
+            <div class="social-icon ig"><i class="fab fa-instagram"></i></div>
+            <div>
+              <div class="social-count">18.1K</div>
+             <div class="social-label">Instagram Followers</div>
+            <a href="https://www.instagram.com/"></a><button class="btn-follow">Follow</button></a> 
+            </div>
+          </div>
+
+        </div>
+      </div><!-- /social widget -->
+
+      <!-- Ad placeholder -->
+      <div class="sidebar-widget">
+        <div class="ad-placeholder">
+          <div style="font-size:28px;margin-bottom:8px;opacity:.35"><i class="fas fa-ad"></i></div>
+          ADVERTISEMENT ON LAP TV<br><span style="font-size:10px;opacity:.5">300 × 250</span>
+        </div>
+      </div>
+    </aside><!-- /sidebar -->
+
+  </div><!-- /content-grid -->
+</main>
+
+<!-- ══════════════════════════════════════
+     FOOTER
+══════════════════════════════════════ -->
+<footer class="site-footer">
+  <div class="footer-top">
+
+    <div class="footer-brand">
+      <img src="images/lap_tv_logo-removebg-preview.png" alt="LAP TV Online Press" class="logo-img" />
+      <p>LAP TV Online Press delivers authoritative, accurate and impartial reporting on global affairs 
+         from geopolitics and economics to culture and technology.</p>
+    </div>
+
+    <div class="footer-col">
+      <h5>Sections</h5>
+      <ul>
+        <li><a href="#">World</a></li>
+        <li><a href="#">Politics</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Technology</a></li>
+        <li><a href="#">Sports</a></li>
+        <li><a href="#">Health</a></li>
+        <li><a href="#">Culture</a></li>
+        <li><a href="#">Opinion</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul>
+        <li><a href="#">About LAP TV</a></li>
+        <li><a href="#">Our Journalists</a></li>
+        <li><a href="#">Editorial Policy</a></li>
+        <li><a href="#">Advertise With Us</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Press Room</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>Legal</h5>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Cookie Policy</a></li>
+        <li><a href="#">Corrections</a></li>
+        <li><a href="#">Accessibility</a></li>
+      </ul>
+    </div>
+
+  </div>
+  <div class="footer-bottom">
+    &copy; 2026 <span>LAP TV Online Press</span>. All rights reserved. Built with ❤ for independent journalism. <span>Siacca made!</span>
+  </div>
+</footer>
+<script>
+  const toggle = document.getElementById('darkToggle');
+  const icon = document.getElementById('darkIcon');
+
+  // Subiramo saved preference
+  const saved = localStorage.getItem('theme') || 'light';
+  document.documentElement.setAttribute('data-theme', saved);
+  icon.className = saved === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+
+  toggle.addEventListener('click', () => {
+    const isDark = document.documentElement
+      .getAttribute('data-theme') === 'dark';
+    const next = isDark ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    icon.className = next === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="script.js"></script>  <!-- Iyi iguma iri -->
+<!-- ══════════════════════════════════════
+     JAVASCRIPT
+══════════════════════════════════════ -->
+<script src="script.js"></script>
+</body>
+</html>
